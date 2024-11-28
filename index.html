@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather App</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #e6f0ff;
+        }
+        .container{
+            background: #c7c7c7;
+            width: 60%;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 15px;
+
+        }
+        h1{
+            color: brown;
+            margin-bottom: 20px;
+
+        }
+        input[type="text"]{
+            padding: 10px;
+            width: 60%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            outline: none;
+            
+    
+        }
+        button{
+            padding: 10px 20px;
+            margin-left: 10px;
+            background-color: purple;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .weather-info{
+            margin: 20px 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .weather-info p{
+            margin: 0 15px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: left;
+        }
+        .weather-info img{
+            justify-content: right;
+            text-align: right;
+            display: flex;
+            margin-left: 20px;
+        }
+        .weather-info span{
+            font-size: 48px;
+            color: black;
+            display: flex;
+            font-weight: bold;
+            margin-left: 20px;
+            align-items: center;
+            justify-content: right;
+            text-align: right;
+        }
+        .forecast{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .forecast-day{
+            text-align: center;
+            font-size: 14px;
+            color: #333;
+        }
+        .forecast-day img{
+            width: 50px;
+            height: 50px;
+            margin: 10px 0;
+        }
+        .footer{
+            font-size: 18px;
+            color: #555;
+            margin-top: 30px;
+
+        }
+        .footer a{
+            color: purple;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to our Weather Application</h1>
+        <div class="search">
+            <input type="text" placeholder="Enter city name">
+            <button>SEARCH</button>
+        </div>
+        <div class="weather-info">
+            <p>Paris<br><br><br>
+            Tuesday 14:40, scattered clouds<br>
+            Humidity: 66, Wind Speed: 4.3
+         </p>
+         <img src="weather-icon.png" alt="Weather">
+            <span>12&degC</span>
+        </div>
+        <div class="forecast">
+            <div class="forecast-day">
+                <p>Mon</p>
+                <img src="weather-icon.png" alt="Weather">
+                <p> <strong>15&deg</strong>| 19&deg</p>
+            </div>
+            <div class="forecast-day">
+                <p>Tue</p>
+                <img src="weather-icon.png" alt="Weather">
+                <p><strong>15&deg</strong> | 19&deg</p>
+                
+                
+            </div>
+            <div class="forecast-day">
+                <p>Wed</p>
+                <img src="weather-icon.png" alt="Weather">
+                <p><strong>15&deg</strong>| 19&deg</p>
+            </div>
+            <div class="forecast-day">
+                <p>Thu</p>
+                <img src="weather-icon.png" alt="Weather">
+                <p><strong>15&deg</strong> | 19&deg</p>
+            </div>
+            <div class="forecast-day">
+                <p>Fri</p>
+                <img src="weather-icon.png" alt="Weather">
+                <p><strong>15&deg</strong> | 19&deg</p>
+            </div>
+            <div class="forecast-day">
+                <p>Sat</p>
+                <img src="weather-icon.png" alt="Weather">
+                <p><strong>15&deg</strong> | 19&deg</p>
+            </div>
+            <div class="forecast-day">
+                <p>Sun</p>
+                <img src="weather-icon.png" alt="Weather">
+                <p><strong>15&deg</strong> | 19&deg</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Coded by <a href="#">Thomas Clay</a>and is on <a href="#">Github</a>and hosted by <a href="#">Netlify</a></p>
+            <p>The design was done using <a href="#">Figma</a></p>
+
+        </div>
+    </div>
+    
+</body>
+</html>
